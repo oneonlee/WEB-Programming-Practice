@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*초기화*/
+        /*모든 태그(*)의 margin 속성과 padding 속성을 0으로 지정합니다.*/
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        /*li 태그의 list-style-type을 none으로 지정합니다.*/
+        li {
+            list-style-type: none;
+        }
+
+        /*반응형 웹*/
+        body {
+            
+            margin: 0 auto;
+        }
+        /*세로 상태에서는 div.left 태그가 보이지 않게 만듭니다.*/
+        @media screen and (orientation: portrait) {
+            .left {
+                display: none;
+            }
+        }
+        @media screen and (orientation: landscape) {
+            /*가로 상태에서는 div.left 태그가 너비의 30%를 차지하고, 왼쪽에 붙게 만듭니다.*/
+            .left {
+                width: 30%;
+                float: left;
+            }
+            /*가로 상태에서는 div.right 태그가 너비의 70%를 차지하고, 오른쪽에 붙게 만듭니다.*/
+            .right {
+                width: 70%;
+                float: right;
+            }
+        }
+
+        /*기본 콘텐츠 구성*/
+        /*div.content 태그의 padding을 16px로 지정합니다.*/
+        .content {
+            padding: 16px;
+        }
+        li {
+             /*li 태그의 위아래 padding 속성을 24px로 지정합니다.*/
+            padding: 24px 0 24px 0;
+            /*li 태그의 아래쪽 테두리를 1px solid #c7c7c7로 지정합니다.*/
+            border-bottom: 1px solid #c7c7c7;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <div class="left">
+            <div class="content">
+                <h1>List</h1>
+                <ul>
+                    <li>Lorem ipsum</li>
+                    <li>dolor sit amet</li>
+                    <li>consectetur adipiscing elit</li>
+                    <li>Pellentesque</li>
+                    <li>ac nisl tempor</li>
+                    <li>consequat nibh eu</li>
+                    <li>convallis lectus</li>
+                    <li>Sed pretium</li>
+                    <li>felis id</li>
+                    <li>arcu rutrum</li>
+                    <li>volutpat</li>
+                    <li>dolor ultricies</li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div class="content">
+                <h1>Lorem Ipsum</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac nisl tempor, consequat nibh eu, convallis lectus. Sed pretium felis id arcu rutrum, a volutpat dolor ultricies. Donec tempus lacus sed ornare sollicitudin. Ut non nibh lorem. Mauris eu iaculis arcu, ut dapibus nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc suscipit dui et elit vehicula tincidunt. Donec eu elit rhoncus, ultricies massa id, consectetur magna. Sed porta cursus rhoncus. Fusce vel fermentum lacus. Vestibulum finibus dictum enim, nec fringilla nulla porta et. Vivamus vel dui vel tellus mattis volutpat quis at augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer mauris libero, mattis eu vulputate et, cursus tempus metus.</p> 
+                <p>Nam enim neque, tincidunt eget augue eu, congue mollis dolor. Integer ultricies consectetur risus. Sed vel gravida nibh. Proin vel dolor eros. In sed odio venenatis, vulputate turpis vitae, semper sem. In consequat dui nibh, sit amet volutpat tortor condimentum in. Mauris auctor turpis id ex vestibulum mollis. Nam vulputate, eros ut accumsan scelerisque, augue nisi varius nibh, a elementum velit urna semper est. Integer sit amet cursus metus. Nunc tempus lorem in facilisis dictum. Fusce rutrum quis lectus sed faucibus. Suspendisse potenti. Pellentesque non risus urna. Maecenas hendrerit sit amet sapien in luctus. Cras eget neque dignissim, consequat enim eu, sodales quam. Praesent eget sollicitudin mi, non semper nibh.</p>
+                <p>Lurabitur ullamcorper, tortor eu lacinia imperdiet, lectus sem vulputate felis, eu congue dolor urna id quam. Sed eget venenatis massa. Maecenas tincidunt interdum leo, nec scelerisque turpis faucibus sodales. Praesent venenatis luctus lectus, cursus vestibulum nisi semper eu. Aenean est magna, pulvinar at sem sit amet, lobortis dapibus dui. In interdum tortor id varius aliquet. Fusce dapibus dolor ut eleifend ultrices. Sed laoreet porta leo id sagittis. Vivamus sed lectus a ex eleifend mattis in vel dui. Quisque feugiat sollicitudin turpis id lacinia. In nulla felis, dictum vel posuere non, maximus ut massa. Nunc id turpis quis ex rhoncus imperdiet. Donec quis magna dolor. Donec non tincidunt diam. Ut in convallis erat.</p>
+                <p>Braesent congue sem vitae euismod feugiat. Proin nec efficitur magna, nec interdum mi. Vestibulum id hendrerit ex, vel tincidunt tortor. Sed non tortor est. In eu justo ante. Mauris ut mollis lacus, eu placerat metus. In a feugiat turpis.</p>
+                <p>Integer quis mi eu felis efficitur ornare in ut est. Donec mollis tellus eu libero aliquet tempor. Nulla vestibulum urna eget massa ullamcorper tempus. Nam urna nisl, ornare vel justo eget, sagittis feugiat mi. Etiam ornare nunc eu egestas blandit. Integer et elit non eros mollis sollicitudin vel iaculis arcu. Mauris quis metus porta dui venenatis consectetur nec eget urna.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
