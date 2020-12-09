@@ -50,6 +50,55 @@
         }
     </style>
 
+    <!-- 4. 내비게이션 및 풀다운 메뉴 구성하기 -->
+    <style>
+        #main-navigation {
+            border-top: 1px solid #c8c8c8;
+            border-bottom: 1px solid #c8c8c8;
+            margin-bottom: 20px;
+            height: 40px; /* 높이를 강제로 지정 */
+        }
+
+        .outer-menu-item {
+            float: left; /* 수평 정렬 */
+            position: relative;
+        }
+
+        .outer-menu-item:hover {
+            background: black;
+            color:white;
+        }
+
+        .menu-title {
+            display: block;
+            height: 30px; line-height: 30px;
+            text-align: center;
+            padding: 5px 20px;
+        }
+
+        .inner-menu {
+            display: none;
+            position: absolute;
+            top: 40px; left: 0;
+            width: 100%;
+            background: white;
+            box-shadow: 0 2px 6px rgba(5,5,5,0.9);
+            z-index: 1000;
+            text-align: center;
+        }
+
+        .inner-menu-item > a {
+            display: block;
+            padding: 5px 10px;
+            color: black;
+        }
+
+        .inner-menu-item > a:hover {
+            background: black;
+            color: white;
+        }
+
+    </style>
 
 </head>
 <body>
