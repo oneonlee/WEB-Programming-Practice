@@ -97,7 +97,55 @@
             background: black;
             color: white;
         }
+    </style>
 
+    <!-- 6. 본문 추가하기 (중앙 내용) -->
+    <style>
+        /* body 태그의 너비: 960px */
+        /* #page-wrapper 태그의 padding 속성으로 내용물 너비는 920px */
+        #content { overflow: hidden; }
+
+        #main-section {
+            float: left;
+            width: 710px;
+        }
+        #main-aside {
+            float: right;
+            width: 200px;
+        }
+
+        /*  자손에게 float 속성을 지정하고, 부모의 overflow 속성은 hidden으로 적용했다. */
+    </style>
+    <!-- 6. 본문 추가하기 (본문 포스트 위쪽) -->
+    <style>
+        article {
+            padding: 0 10px 20px 10px;
+            border-bottom: 1px solid #c8c8c8;
+        }
+
+        .article-header { padding: 20px 0; }
+        .article-title {
+            font-size: 25px;
+            font-weight: 500;
+            padding-bottom: 10px;
+        }
+        .article-date { font-size: 13px; }
+        .article-body {
+            font-size: 14px;
+        }
+    </style>
+    <!-- 6. 본문 추가하기 (사이드 메뉴) -->
+    <style>
+        .aside-list { padding: 10px 0 30px 0 };
+        .aside-list > h3 {
+            font-size: 15px;
+            font-weight: 600;
+        }
+        .aside-list li a {
+            margin-left: 8px;
+            font-size: 13px;
+            color: #6c6c6c
+        }
     </style>
 
 </head>
