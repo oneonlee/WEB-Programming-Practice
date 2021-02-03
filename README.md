@@ -1,9 +1,8 @@
 # WEB-Programming-Practice
-['HTML5 웹 프로그래밍 입문'](http://www.yes24.com/Product/Goods/76897377) 책의 응용 예제 및 종합 예제를 실습합니다.
+['HTML5 웹 프로그래밍 입문'](http://www.yes24.com/Product/Goods/76897377) 책의 응용 예제 및 종합 예제를 실습합니다.<br>
 <img src="cover.jpeg" width="30%" height="30%">
 
 ## 목차
-
 <details>
 <summary>Chapter 01 웹 개요와 실습 환경 구축</summary>
 <div markdown="1">
