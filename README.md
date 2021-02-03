@@ -1,6 +1,6 @@
 # WEB-Programming-Practice
 ['HTML5 웹 프로그래밍 입문'](http://www.yes24.com/Product/Goods/76897377) 책의 응용 예제 및 종합 예제를 실습합니다.
-
+![](cover.jpeg){: width="50%" height="50%"}
 
 ## 목차
 
@@ -52,20 +52,19 @@
 
 <details>
 <summary>Chapter 04 HTML5 입력 양식 태그와 구조화 태그</summary>
-<div markdown="1">  
-</div>
-</details>
- - 01 입력 양식 태그  
-	 - 1.1 입력 양식 개요
+<div markdown="1">
+	- 01 입력 양식 태그  
+	- 1.1 입력 양식 개요
 	 - 1.2 입력 양식 종류
  - 02 HTML5 문서 구조화  
 	 - 2.1 공간 분할 태그  
 	 - 2.2 시맨틱 태그  
 - 연습문제  
 - 종합 예제 1 블로그 레이아웃 구성  
+</div>
+</details>
+
 <details>
-
-
 <summary>Chapter 05 CSS3 기초: 선택자와 단위</summary>
 <div markdown="1">  
 - 01 선택자의 용도와 사용법  
